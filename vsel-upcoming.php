@@ -58,6 +58,7 @@ function vsel_shortcode( $vsel_atts ) {
 			$event_date = get_post_meta( get_the_ID(), 'event-date', true );
 			$event_time = get_post_meta( get_the_ID(), 'event-time', true );
 			$event_location = get_post_meta( get_the_ID(), 'event-location', true );
+
 			// BP: Remove link and link label
 			// $event_link = get_post_meta( get_the_ID(), 'event-link', true );
 			// $event_link_label = get_post_meta( get_the_ID(), 'event-link-label', true );
